@@ -51,7 +51,6 @@ header
     position: absolute;
     right: 72px;
     bottom: 20px;
-    padding-left: 72px;
 }
 
 .header-logo
@@ -78,12 +77,43 @@ header
     background-color: rgba(229, 235, 255, 0.7);
 }
 
+@media(max-width:1400px)
+{
+    .slogan
+    {
+        font-size: 70px;
+        width: 700px;
+        padding: 0;
+        margin: 0;
+        right: 0;
+    }
 
+    header 
+    {
+        height: 600px;
+        padding: 0;
+    }
+
+    .header-logo{
+        left:20px;
+    }
+
+    h1{
+        font-size: 65px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 30px;
+    }
+}
 
 /* did you know?--------------------------------------------------------------------------------------------- */
-.world-1
+.world
 {
-    margin-top: 453px;
     padding-top: 80px;
     margin-bottom: 80px;
     display: flex;
@@ -91,6 +121,7 @@ header
     align-items: center;
     padding-left: 72px;
     padding-right: 72px;
+    text-align: center;
 
 }
 
@@ -106,8 +137,8 @@ header
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    width: 329px;
-    height: 548px;
+    width: 350px;
+    height: auto;
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 0 0 5px rgba(39, 9, 75, 0.5);
@@ -115,7 +146,7 @@ header
 
 .content-1 img{
     width: 100%;
-    height: 190px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -136,10 +167,7 @@ header
         width: 1000px;
     }
     
-    p
-    {
-        font-size: 20px;
-    }
+
 
     .text-container-1
     {
@@ -148,14 +176,18 @@ header
 
     .content-1
     {
-        width: 300px;
+        width: 500px;
         height: auto;
     }
 
     .continent-1
     {
-        width:950px;
+        flex-direction: column;
+        align-items: center;
+        width:auto;
     }
 }
+
+/* did you know?--------------------------------------------------------------------------------------------- */
 
 
