@@ -39,7 +39,7 @@ header
     top: 0;
     height: 453px;
     overflow: hidden;
-    min-width: 1000px;
+    min-width: 900px;
 }
 
 .slogan
@@ -78,52 +78,7 @@ header
     background-color: rgba(229, 235, 255, 0.7);
 }
 
-@media(max-width:900px)
-{
-h1
-{
-    font-family: roboto;
-    font-weight: 700;
-    color: rgb(39, 9, 75);
-    font-size: 35px;
-}
 
-h2
-{
-    font-family: roboto;
-    font-weight: 700;
-    font-size: 25px;
-    color: black;
-}
-
-p
-{
-    font-family: roboto;
-    font-weight: 400;
-    color: black;
-    font-size: 20px;
-}
-
-header
-{
-    min-width: 500px;
-    height: 300px;
-}
-
-.slogan
-{
-    font-size: 45px;
-    width: 500px;
-    bottom: 10px;
-    right: 4px;
-}
-
-.header-logo{
-    width: 150px;
-    left: 45px;
-    top: -30px;
-}
-}
 
 /* did you know?--------------------------------------------------------------------------------------------- */
 .world-1
@@ -144,7 +99,6 @@ header
     display: flex;
     width: 1400px;
     justify-content: space-between;
-    min-width: 900px;
 }
 
 .content-1
@@ -181,37 +135,27 @@ header
     {
         width: 1000px;
     }
-}
-
-
-@media(max-width:900px)
-{
-    .world-1
+    
+    p
     {
-        margin-top: 300px;
-        padding-top: 60px;
+        font-size: 20px;
+    }
+
+    .text-container-1
+    {
+        padding: 10px;
+    }
+
+    .content-1
+    {
+        width: 300px;
+        height: auto;
     }
 
     .continent-1
     {
-    display: flex;
-    height: 6000px;
-    justify-content: space-between;
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
+        width:950px;
     }
+}
 
-    .content-1
-{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    width: 329px;
-    height: 548px;
-    overflow: hidden;
-    border-radius: 20px;
-    box-shadow: 0 0 5px rgba(39, 9, 75, 0.5);
-    margin: 20px;
-}
-}
+
