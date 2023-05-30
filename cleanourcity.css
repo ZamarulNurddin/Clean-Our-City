@@ -226,5 +226,6 @@ header
     .content-2
     {
         height: 600px;
+        min-width: 1300px;
     }
 }
