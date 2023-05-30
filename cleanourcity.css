@@ -220,7 +220,7 @@ header
 
 .text-container-2
 {
-    width: 100%;
+    width: auto;
     flex-direction: column;
     text-align: start;
     margin-left: 20px;
