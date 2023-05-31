@@ -367,11 +367,17 @@ header
     align-items: center;
 }
 
+.footer-1 h2
+{
+    white-space: nowrap;
+}
+
 .image-container-footer
 {
     height: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
+    white-space: nowrap;
 }
 
 .image-container-footer img
@@ -413,10 +419,15 @@ header
 
     .footer-2 p
     {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .footer-2 img{
         width: 100px;
+    }
+
+    .footer-2 h2
+    {
+
     }
 }
