@@ -419,15 +419,16 @@ header
 
     .footer-2 p
     {
-        font-size: 20px;
+        font-size: 15px;
+        white-space: nowrap;
     }
 
     .footer-2 img{
         width: 100px;
     }
 
-    .footer-2 h2
+    .footer-1 h2
     {
-
+        white-space: nowrap;
     }
 }
