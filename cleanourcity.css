@@ -419,7 +419,7 @@ header
 
     .footer-2 p
     {
-        font-size: 15px;
+        font-size: 16px;
         white-space: nowrap;
     }
 
@@ -429,6 +429,6 @@ header
 
     .footer-1 h2
     {
-        white-space: nowrap;
+       white-space: nowrap;
     }
 }
